@@ -387,8 +387,8 @@ html{
     /* border:2px solid white; */
   
 }
-.project-section .project-box2{
-    margin-bottom:2rem;
+.project-section .project-box2.utilityapp{
+    margin-top:1rem;
 }
 .project-section .row-2 .card img{
     width:100%;
@@ -421,3 +421,103 @@ html{
     color:var(--accent-color);
 }
 
+/* End of Project-Section Styling */
+
+
+.contact-section{
+    width:100vw;
+    min-height:100vh;
+    padding-top:3rem;
+}
+.contact-section .contact-number{
+    display: flex;
+    justify-self: center;
+    margin-top:1rem;
+}
+
+.contact-section form{
+    margin-top:1rem;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    width:500px;
+    min-height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:2rem;
+    box-shadow: 0 0 2px var(--accent-color);
+}
+
+.contact-section form input{
+    width:100%;
+    height:2.5rem;
+    background:#191919;
+    margin-top:-0.5rem;
+    text-align:center;
+    font-size:1rem;
+}
+
+.contact-section form input:hover::placeholder{
+    color:white;
+}
+
+.contact-section form textarea{
+    width:100%;
+    min-height:150px;
+    max-height: 200px;
+    background:#191919;
+    padding-left:0.5rem;
+    padding-top:0.5rem;
+    font-size:1rem;
+}
+
+.contact-section form textarea:hover::placeholder{
+    color:white;
+}
+
+.contact-section form button{
+    width:100%;
+    height:2.5rem;
+    background:#05b9b9;
+    box-shadow: 0 0 5px #05b9b9;
+    color:black;
+    cursor: pointer;
+    border-radius:30px;
+    margin-top:1rem;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+.contact-section h2{
+    color:white;
+    text-align: center;
+}
+.contact-section h4{
+    color:var(--accent-color);
+}
+
+
+/* End of Contact Page Styling*/
+
+.footer{
+    width:100vw;
+    height:4rem;
+    background:#191919;
+    font-size:0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color:var(--accent-color);
+}
+.footer .footer-text-dev{
+    color:var(--accent-color);
+}
+
+.footer .footer-text-web{
+    color:white;
+}

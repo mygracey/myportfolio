@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#" class="mode">mode</a></li>
+            
         </ul>
     </nav>
 
@@ -57,7 +58,21 @@
             </p>
 
             <h2>My Skills</h2>
-            <div class="skills"></div>
+            <div class="skills">
+                <div class="card">
+                
+                </div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
 
                 </div>
         <div class="card-right">
@@ -160,14 +175,45 @@
                          </div>
                       </div>
                 </div>
+                <div class="card">
+                      <div class="project-box2 taskapp">
+                        <img src="./images/mygracey.github.io_taskapp_(Nest Hub Max).png" alt="">
+                      </div>
+                      <div class="text-card2">
+                         <h4>Task App</h4>
+                         <p>This is a simple task management app that persists data in firebase realtime database.</p>
+                         <p class="project-status">Status: Live </p>
+                         <div class="url-links">
+                             <a href="#"><button  class="btn-view-project">View Project</button></a> <a href="#" class="btn-github-repo">Github Repo</a>
+                         </div>
+                      </div>
+                </div>
 
             </div>
 
         </section>
 
-    <section class="contact-section"></section>
+    
+    <a name="contact"></a>
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-number">
+             <h4>WhatsApp: +2348067852735</h4>
+        </div>
+       
 
-    <footer class="footer"></footer>
+        <form action="">
+            <input type="text" placeholder="Your name" name="name"><br>
+            <input type="text" placeholder="Your email" name="email"><br>
+            <input type="text" placeholder="Your mobile phone number" name="mobile"><br>
+            <textarea name="message" placeholder="Leave a message here..."></textarea>
+            <button type="submit" name="submit">Submit my message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2026 <span class="footer-text-web">Web</span><span class="footer-text-dev">Dev</span>. All rights reserved.</p>
+    </footer>
     
 
 
