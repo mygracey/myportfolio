@@ -1,0 +1,423 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Poppins;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    border:0;
+    outline:0;
+    user-select: none;
+}
+:root{
+    --accent-color: #05b9b9;
+}
+body{
+    background:black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding-left:10%;
+    padding-right:10%;
+}
+::-webkit-scrollbar{
+ background-color: var(--accent-color);
+}
+
+.navbar{
+    width:100vw;
+    min-height:4rem;
+    background:#191919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:2rem;
+   
+}
+
+.navbar ul a{
+    text-decoration: none;
+    font-size:0.9rem;
+    color:white;
+    text-transform: uppercase;
+    position:relative;
+}
+
+.navbar ul a:hover{
+    color:#05b9b9;
+    text-shadow: 0 0 3px #05b9b9;
+}
+
+
+.navbar .logo{
+ color:white;
+ font-size:25px;
+ font-weight: 700;
+}
+
+.navbar .logo #dev{
+    color:var(--accent-color);
+    text-shadow: 0 0 2px var(--accent-color);
+}
+
+/* End of Navbar Styling*/
+
+.home-section{
+    width:100vw;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding-top:4rem;
+    
+}
+
+.home-section .text-box{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.hero-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1rem;
+}
+
+.home-section .image-box{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border:6px solid var(--accent-color);
+    box-shadow: 0 0 10px var(--accent-color),0 0 15px var(--accent-color);
+    
+}
+
+
+.home-section .text-box p{
+    color:white;
+    font-size: 1rem;
+    
+}
+
+
+.home-section .text-box h4{
+    color:white;
+    font-size: 1.2rem;
+}
+
+.home-section .text-box h1{
+    color:#05b9b9;
+}
+
+.home-section .btn-download{
+    padding:1rem 2rem;
+    background:transparent;
+    border:2px solid var(--accent-color);
+    color:var(--accent-color);
+    border-radius: 2rem;
+    transition: .5s ease-in-out;
+}
+
+.home-section .btn-download:hover{
+    background:var(--accent-color);
+    color:black;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* End of Home-Section Styling*/
+
+.about-section{
+    width:100vw;
+    min-height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    flex-direction: column;
+    padding-top:3rem;
+}
+
+.about-section h2{
+    color:white;
+    padding-top:3rem;
+    
+}
+
+.about-section .card-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.about-section .card-wrapper .card-left{
+    flex:1;
+    min-height: 200px;
+    padding:2rem;
+    
+}
+
+.about-section .card-wrapper .card-right{
+    width:450px;
+    min-height: 200px;
+    border:2px solid var(--accent-color);
+    border-radius:2rem;
+    padding:1rem;
+}
+.about-section .card-wrapper .card-right h3{
+    color:var(--accent-color);
+    text-align: center;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.about-section .card-wrapper .card-right h5{
+    color:white;
+}
+
+.about-section .card-wrapper .card-right p{
+    color:white;
+}
+
+
+.about-section .card-wrapper .card-right .company{
+    font-weight: 700;
+}
+
+.about-section .card-wrapper .card-left .skills{
+    width:auto;
+    min-height:200px;
+    border:2px solid white;
+    margin-top:1rem;
+}
+
+.about-section .card-wrapper .card-left h2{
+    margin-top:1rem;
+    
+}
+
+.about-section .card-wrapper .card-left p{
+    color:white;
+}
+.about-section .btn-learn-more{
+    text-decoration: underline;
+    color:var(--accent-color);
+}
+
+/* End of About Styling*/
+
+.project-section{
+    width:100vw;
+    min-height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:3rem;
+}
+
+.project-section h2{
+    color:white;
+    padding-top:3rem;
+    padding-bottom:2rem;
+}
+
+.project-section .row-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+.project-section .row-1 .card{
+    width:400px;
+    min-height:600px;
+}
+
+
+.project-section .tutorpoint{
+    width:100%;
+    height:600px;
+    background:linear-gradient(rgba(5, 106, 134, 0.7)),url(./images/tutorpoint.onrender.com_\(Nest\ Hub\ Max\).png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transition: .5s ease;
+    margin-top:3rem;
+}
+.project-section .tutorpoint:hover{
+    width:100%;
+    height:600px;
+    background:url(./images/tutorpoint.onrender.com_\(Nest\ Hub\ Max\).png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.project-section .schoolapp{
+    width:100%;
+    height:600px;
+    background:linear-gradient(rgba(5, 106, 134, 0.7)),url(./images/localhost_5173_\(Nest\ Hub\ Max\).png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transition: .5s ease;
+    margin-top:3rem;
+}
+.project-section .schoolapp:hover{
+    width:100%;
+    height:600px;
+    background:url(./images/localhost_5173_\(Nest\ Hub\ Max\).png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.project-section .text-card{
+    width:auto;
+    min-height:100px;
+    border:0;
+    padding:1rem;
+    margin-top:2rem;
+    
+}
+.project-section .text-box h4,p{
+    color:rgb(104, 96, 96);
+}
+
+.project-section .text-card:hover{
+    border:2px solid var(--accent-color);
+}
+.project-section .text-card:hover h4{
+    color:white;
+}
+.project-section .text-card:hover p{
+    color:white;
+}
+
+.project-section .text-card:hover .btn-view-project{
+    background:var(--accent-color);
+    color:black;
+    border:0;
+}
+
+.project-section .text-card:hover .btn-github-repo{
+    color:var(--accent-color);
+}
+
+.project-section .text-card:hover .project-status{
+    color:var(--accent-color);
+}
+
+.project-section .text-box .url-links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+   
+}
+.project-section .text-box p{
+    padding-bottom: 1rem;
+}
+
+.project-section .project-status{
+    color:rgb(104, 96, 96);
+}
+
+.url-links .btn-view-project{
+    color:var(--accent-color);
+    margin-top:1rem;
+    padding:1rem 2rem;
+    background:transparent;
+    border:2px solid rgb(104, 96, 96);
+    color:rgb(104, 96, 96);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size:1rem;
+    font-weight: 700;
+}
+
+.url-links .btn-github-repo{
+    color:rgb(104, 96, 96);
+    text-decoration: underline;
+    padding-top:1rem;
+}
+
+
+.project-section .row-2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+    gap:1rem;
+}
+
+.project-section .row-2 .card{
+    width:400px;
+    min-height: 200px;
+    /* border:2px solid white; */
+  
+}
+.project-section .project-box2{
+    margin-bottom:2rem;
+}
+.project-section .row-2 .card img{
+    width:100%;
+    height:100%;
+}
+
+.project-section .text-card2{
+    padding:1rem;
+}
+.project-section .text-card2:hover{
+    border:2px solid var(--accent-color);
+}
+
+.project-section .text-card2:hover h4{
+    color:white;
+}
+.project-section .text-card2:hover p{
+    color:white;
+}
+.project-section .text-card2:hover .project-status{
+    color:var(--accent-color);
+}
+.project-section .text-card2:hover button{
+    background:var(--accent-color);
+    color:black;
+    border:0;
+}
+
+.project-section .text-card2:hover .btn-github-repo{
+    color:var(--accent-color);
+}
+
