@@ -326,6 +326,10 @@ html{
     min-height:600px;
 }
 
+.project-section .row-1 .text-card{
+    padding:1rem;
+}
+
 
 .project-section .tutorpoint{
     width:100%;
@@ -716,25 +720,46 @@ min-height: 50px;
     max-width:600px;
  }
  .about-section{
-    max-width:600px;
+    /* max-width:600px; */
  }
- .about-section .card-wrapper .card-right{
-    width:300px;
+ .card-wrapper .card-left{
     
+    max-width:auto;
  }
+
+ .about-section .card-wrapper .card-right{
+    width:auto;
+ }
+ 
  .project-section{
     max-width:600px;
  }
  .project-section .row-1 .card{
-    min-width:300px;
+    padding:1rem;
  }
  .project-section .row-1 .project-box img{
     background-size: contain;
  }
  .project-section .row-1 .text-card{
     min-width:200px;
-    padding:2rem;
+    padding:1rem;
  }
+ .project-section .row-2 .card{
+    padding:1rem;
+ }
+ .project-section .row-2 .project-box2 img{
+    background-size: contain;
+ }
+ .project-section .row-2 .text-card2{
+    min-width:200px;
+    padding:1rem;
+ }
+
+ .contact-section form{
+    width:320px;
+ }
+
+ 
 
   
 }
