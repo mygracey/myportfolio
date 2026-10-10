@@ -18,12 +18,19 @@
             <li><a href="#contact">Contact</a></li>
             
         </ul>
+        <div class="open">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        <div class="close">
+            <i class="fa fa-times"></i>
+        </div>
     </nav>
 
     <a name="home"></a>
     <section class="home-section container">
         <div class="text-box">
-            <h4>Hi, I'm Grace Agu,</h4>
+            <h4>Hi, I'm Grace,</h4>
             <h1>Frontend Web Developer & Tech Educator</h1>
             <p>I'm a frontend web developer and tech educator with hands-on experience building and deploying web applications using React, JavaScript, Firebase, and modern web technologies. I also enjoy helping students understand and build with technology. </p><br>
 
@@ -35,7 +42,9 @@
            
             </div>
 
-        <div class="image-box"></div>
+        <div class="image-box">
+            <img src="./images/grace2-removebg.png" alt="">
+        </div>
     </section>
 
 
@@ -60,18 +69,38 @@
             <h2>My Skills</h2>
             <div class="skills">
                 <div class="card">
-                
+                 <i class="fa-brands fa-html5" class="icon"></i>
                 </div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card">
+                   <i class="fa-brands fa-css3-alt" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-js" class="instructional" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-python" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-react" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-node-js" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-php" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-git-alt" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-github" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-database" class="icon"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-palette" class="icon"></i>
+                </div>
             </div>
 
                 </div>
@@ -197,16 +226,16 @@
     <a name="contact"></a>
     <section class="contact-section">
         <h2>Contact Me</h2>
-        <div class="contact-number">
-             <h4>WhatsApp: +2348067852735</h4>
+        <div class="contact-details">
+             <i class="fa fa-phone" class="icon"></i><h4>+2348067852735</h4>
         </div>
        
 
-        <form action="">
-            <input type="text" placeholder="Your name" name="name"><br>
-            <input type="text" placeholder="Your email" name="email"><br>
-            <input type="text" placeholder="Your mobile phone number" name="mobile"><br>
-            <textarea name="message" placeholder="Leave a message here..."></textarea>
+        <form action="https://formspree.io/f/mgaoyvdb" method="POST">
+            <input type="text" placeholder="Your name" name="name" autocomplete="off"><br>
+            <input type="text" placeholder="Your email" name="email" autocomplete="off"><br>
+            <input type="text" placeholder="Your mobile phone number" name="mobile" autocomplete="off"><br>
+            <textarea name="message" placeholder="Leave a message here..." autocomplete="off"></textarea>
             <button type="submit" name="submit">Submit my message</button>
         </form>
     </section>
