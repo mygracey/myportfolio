@@ -304,6 +304,7 @@ html{
     align-items: center;
     flex-direction: column;
     padding-top:3rem;
+    
 }
 
 .project-section h2{
@@ -318,11 +319,13 @@ html{
   align-items: center;
   gap:1rem;
   flex-wrap: wrap;
+  
 }
 
 .project-section .row-1 .card{
     width:400px;
     min-height:600px;
+     
 }
 
 .project-section .row-1 .text-card{
